@@ -9,7 +9,7 @@ macOS-Menüleisten-App mit eingebettetem MCP-Server, die Hosting-APIs (All-Inkl 
 ## Arbeitsablauf
 
 1. Erst diskutieren, dann umsetzen. Neue Adapter, neue Ressourcen, Änderungen am Rechtemodell werden mit Frank abgestimmt.
-2. Ein GitHub-Issue pro Aufgabe im Repo `staude/kastellan`, Labels `feature`, `bug`, `docs`, `chore`, `adapter`.
+2. Ein GitHub-Issue pro Aufgabe im Repo `toolwerk/kastellan`, Labels `feature`, `bug`, `docs`, `chore`, `adapter`.
 3. Ein Branch pro Issue: `feature/12-kas-mailbox`, `fix/12-flood-delay`.
 4. Pull Request nach `main` mit `Closes #12`. Für Phase 0 und 1 (Entscheidung 2026-09-06) merged Claude per Squash selbst, Frank reviewt den Stand auf `main` am Ende jeder Phase. Ab Phase 2 gilt wieder: Claude öffnet, Frank merged.
 5. Ticketnummer in Commit-Subject (`#12 feat: KAS-Adapter mailbox_list`), CHANGELOG-Eintrag und Vault-Notiz.
