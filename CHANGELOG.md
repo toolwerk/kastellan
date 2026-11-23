@@ -6,6 +6,10 @@ Das Format orientiert sich an [Keep a Changelog](https://keepachangelog.com/de/1
 
 ## [Unreleased]
 
+### Changed
+
+- README überarbeitet: Logo, Screenshots mit Beispieldaten, ausführliche Funktionsbeschreibung, englische Fassung `README.en.md`. `tools/demo/make-demo-home.py` erzeugt das Beispiel-Datenverzeichnis für die Screenshots.
+
 ### Added
 
 - Terminal-Oberfläche `kastellan` für macOS, Linux und Windows: Übersicht, Verbindungen (anlegen, bearbeiten, prüfen, löschen, Fähigkeiten), Rechte, MCP-Clients (Token anlegen, Eintrag für Claude Code oder Claude Desktop schreiben, widerrufen), Freigaben und Protokoll. `kastellan status` gibt den Zustand ohne Oberfläche aus. Steuerzeichen aus Vorschauen, Protokoll und Meldungen werden vor der Anzeige entfernt.
